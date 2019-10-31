@@ -120,6 +120,16 @@
    Names::Add ("RouterC", c);
    Ptr<Node> d = CreateObject<Node> ();
    Names::Add ("RouterD", d);
+   Ptr<Node> e = CreateObject<Node> ();
+   Names::Add ("RouterE", e);
+   Ptr<Node> f = CreateObject<Node> ();
+   Names::Add ("RouterF", f);
+   Ptr<Node> g = CreateObject<Node> ();
+   Names::Add ("RouterG", g);
+   Ptr<Node> h = CreateObject<Node> ();
+   Names::Add ("RouterH", h);
+   Ptr<Node> i = CreateObject<Node> ();
+   Names::Add ("Routeri", i);
    NodeContainer net1 (src, a);
    NodeContainer net2 (a, b);
    NodeContainer net3 (a, c);
